@@ -54,7 +54,7 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 5em;
 }
 
@@ -65,7 +65,7 @@ h6 {
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
 }
 
 @media(max-width:767px) {
@@ -120,24 +120,72 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
-.banner {
-    padding: 100px 0;
+.we-do-contianer {
+    padding: 50px 0;
     color: #f8f8f8;
     /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
-    background-color:orange;
+    background-color:#D5DCDC;
+    background-size: cover;
+}
+
+.we-do-contianer h2 {    
+    text-align:center;
+  
+     color:#444444;
+    }
+.we-do-contianer h3, h4, a {    
+    text-align:center;
+     font-size:1.1em;
+     color:#999999;
+     letter-spacing:0.06em;
+    }
+
+.we-do-contianer h4 {    
+    text-align:center;
+     font-size:1.1em;
+     color:#666666;
+    }
+
+.we-do-contianer .we-do-divider{
+    text-align:center;
+    width:50%;
+    border-bottom: 1px solid #eee;
+}
+
+.rule--mini {
+    margin: 5px auto 55px;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    background-color: #BBBBBB;
+    width: 40px;
+    height: 3px;
+}
+.banner {
+    padding: 50px 0;
+    color: #f8f8f8;
+    /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
+    background-color:#FF6600;
     background-size: cover;
 }
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-size: 2.5em;
+    padding-bottom:20px;
 }
 
 .banner ul {
     margin-bottom: 0;
 }
 
+.banner button{
+    color: #ffffff;
+    background-color: #6b6b6b;
+    margin:10px;
+}
 .banner-social-buttons {
     float: right;
     margin-top: 0;
@@ -153,7 +201,7 @@ h6 {
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
         font-size: 3em;
     }
 
