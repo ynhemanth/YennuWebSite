@@ -31,9 +31,10 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
+    padding-top: 150px;
+     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    /*padding-bottom: 50px;*/
+    text-align: right;
     color: #f8f8f8;
     background: url(../img/landing-banner.jpg) no-repeat center center;    
      
@@ -59,7 +60,7 @@ h6 {
 }
 
 .intro-divider {
-    width: 400px;
+    width: 400px;    
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -129,8 +130,7 @@ h6 {
 }
 
 .we-do-contianer h2 {    
-    text-align:center;
-  
+    text-align:center;  
      color:#444444;
     }
 .we-do-contianer h3, h4, a {    
@@ -138,6 +138,18 @@ h6 {
      font-size:1.1em;
      color:#999999;
      letter-spacing:0.06em;
+    }
+
+.we-do-contianer .caption h3 {        
+     font-size:1.4em;
+     color:#444444;
+     
+    }
+
+.we-do-contianer .caption p {        
+     font-size:1em;
+     color:#ADADAD; 
+     padding-top:15px;   
     }
 
 .we-do-contianer h4 {    
