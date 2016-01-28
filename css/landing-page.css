@@ -36,7 +36,7 @@ h6 {
     /*padding-bottom: 50px;*/
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/london4.jpg) no-repeat center center;    
+    background: url(../img/london_o.jpg) no-repeat center center;    
      
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -176,10 +176,10 @@ h6 {
 }
 .banner {
     padding: 50px 0;
-    color: #f8f8f8;
-    /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
-    background-color:#FF6600;
+    color: #f8f8f8;    
+    background-color:#F67C09;
     background-size: cover;
+    letter-spacing:0.06em;
 }
 
 .banner h2 {
@@ -201,6 +201,10 @@ h6 {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+}
+.container-li-spacing li
+{
+    margin-bottom:10px;
 }
 
 @media(max-width:1199px) {
@@ -239,4 +243,8 @@ p.copyright {
 
 .padding-class{
     padding:15px 0 15px 0;
+}
+
+.header-color{
+    color:#FF6600;
 }
