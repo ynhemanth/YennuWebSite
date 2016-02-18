@@ -230,6 +230,10 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+
+    .logo-width{
+        width:80%;
+    }
 }
 
 footer {
