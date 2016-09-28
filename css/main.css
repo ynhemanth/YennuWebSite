@@ -64,9 +64,14 @@ h6 {
     left: 0;
     top: 0;
     width:100%;
-    background-color:rgba(8, 8, 8, 0.80);
+    background-color:rgba(8, 8, 8, 0.50);
     margin: auto;
     transition: all 250ms ease-in-out;
+}
+
+.full-width-img{
+    background-size:100% 100%;
+    width:100%;
 }
 
 .caption-container {
@@ -158,6 +163,11 @@ h6 {
     font-weight:300; margin-bottom:20px;
 }
 
+
+.service-margin{
+    margin:40px 0;
+}
+
 .set-margin{
     margin:100px 0;
 }
@@ -191,6 +201,9 @@ h6 {
     margin-left: 18px;
 }
 
+.text-align {
+    text-align:justify;
+}
 .about-header {
     font-family: publico-light-italic;
     font-style: italic;
@@ -203,7 +216,7 @@ h6 {
 }
 
 .about-appraoch {
-    background: url('../img/Landing/about-banner2.jpg') no-repeat;
+    background: url('../img/Landing/about-banner2.jpg') no-repeat;    
 }
 .approach-message {
     margin: 50px 0;
@@ -216,7 +229,7 @@ h6 {
     background: #4bb1d6;
 }
 .about-container2-color {
-    background: #C79D37;
+    background: #94828d;/*#C79D37;*/
 }
 .about-container3-color {
     background: #3ED4B9;
