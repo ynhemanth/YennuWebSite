@@ -14,4 +14,18 @@ steps:
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
-- task: PublishBuildArtifacts@1
+
+#- task: PublishBuildArtifacts@1
+- task: DownloadBuildArtifacts@1
+  inputs:
+    buildType: 'current'
+    downloadType: 'specific'
+    downloadPath: '$(System.ArtifactsDirectory)'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure subscription 1(1)(ce60c81e-f8ee-413a-a8fe-e84546574728)'
+    appType: 'webApp'
+    WebAppName: 'NewTutorialWebApp'
+    packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
+    
